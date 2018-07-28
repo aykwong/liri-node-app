@@ -1,0 +1,55 @@
+[33mcommit 4fa449df97d53b72e1a0b95598558760e4d185c9[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Alpha <aykwong93@gmail.com>
+Date:   Fri Jul 27 08:15:14 2018 -0400
+
+    Fixed keys.js module
+
+ keys.js | 10 [32m+++[m[31m------[m
+ liri.js | 73 [32m+++++++++++++++++++++++++++++++++++++++[m[31m--------------------------[m
+ 2 files changed, 47 insertions(+), 36 deletions(-)
+
+[33mcommit 081ba7a0ab974cc0b4161df90f21f017ceed5952[m
+Author: Alpha <aykwong93@gmail.com>
+Date:   Fri Jul 27 07:26:15 2018 -0400
+
+    Added Spotify API
+
+ .env              |  4 [32m++[m[31m--[m
+ keys.js           | 27 [32m++++++[m[31m-----------------[m
+ liri.js           | 64 [32m+++++++++++++++++++++++++++++++++++++++++++++++++++++++[m
+ package-lock.json |  5 [32m+++++[m
+ package.json      |  1 [32m+[m
+ random.txt        |  1 [32m+[m
+ 6 files changed, 79 insertions(+), 23 deletions(-)
+
+[33mcommit 1bc855d0c6538e6e6bd1e72b4239fbd4c22dc49e[m
+Author: Alpha <aykwong93@gmail.com>
+Date:   Sun Jul 22 22:43:03 2018 -0400
+
+    Initial files creation
+
+ .env              |  11 [32m++[m
+ .gitignore        |   3 [32m+[m
+ keys.js           |  32 [32m+++++[m
+ package-lock.json | 392 [32m++++++++++++++++++++++++++++++++++++++++++++++++++++++[m
+ package.json      |  27 [32m++++[m
+ 5 files changed, 465 insertions(+)
+
+[33mcommit 37901f655e74f1e46427d7933856fbf225754ec6[m
+Author: Alpha <aykwong93@gmail.com>
+Date:   Sun Jul 22 00:21:03 2018 -0400
+
+    inital files
+
+ .env    | 0
+ keys.js | 0
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+
+[33mcommit 9faf652019b28839aeec9c1466ef001bf3e74a30[m
+Author: aykwong <36793558+aykwong@users.noreply.github.com>
+Date:   Sun Jul 22 00:18:26 2018 -0400
+
+    Initial commit
+
+ README.md | 1 [32m+[m
+ 1 file changed, 1 insertion(+)
