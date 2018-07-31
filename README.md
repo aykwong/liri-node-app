@@ -18,7 +18,7 @@ Fork the repo and download the files to your computer. You will need to obtain a
 
 ## Built With
 
-* [Javascript]
+* [JavaScript]
 * [NPM Packages]
 * [OMDB-API]
 
