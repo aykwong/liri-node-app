@@ -49,6 +49,8 @@ function spotifyRun() {
       `\nPreview: ${data.tracks.items[0].preview_url}`,
       `\nAlbum: ${data.tracks.items[0].album.name}`
     );
+
+    log();
   });
 };
 
@@ -74,6 +76,8 @@ function omdbRun() {
         `\nActors: ${body.Actors}`
       );
     }
+
+    log();
   });
 }
 
@@ -90,4 +94,17 @@ function whatItSays() {
 
     spotifyRun();
   });
+}
+
+function log() {
+  fs.appendFile("log.txt", `\n${command}, ${content}`, function(err) {
+    if (err) {
+      return console.log("Error occurred: " + err);
+    }
+
+    else {
+      console.log('---------------');
+      console.log("Content Added!");
+    }
+  })
 }
