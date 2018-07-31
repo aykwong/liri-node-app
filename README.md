@@ -10,6 +10,12 @@ Fork the repo and download the files to your computer. You will need to obtain a
 - npm install
 - npm install --save node-spotify-api
 
+The following commands work to operate Liri:
+
+- spotify-this-song (insert track name)
+- movie-this (insert movie name)
+- do-what-it-says
+
 ### Prerequisites
 
 - An internet connection
